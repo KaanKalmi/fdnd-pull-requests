@@ -1,5 +1,5 @@
 <script>
-  import Heading from "$lib/organisms/Heading.svelte";
+  import Heading from "$lib/molecules/Heading.svelte";
   import Topics from "$lib/molecules/Topics.svelte";
   let { title, sprintNumber, content, startdate, topics } = $props();
 </script>
@@ -30,6 +30,6 @@
   }
 
   article div { margin-top: 1.5rem; }
-  :global(article p) { font-size: 1rem; }
+  :global(article p) { font-size: 1rem; padding-left: .5rem;}
   :global(blockquote) { font-size: 1rem; }
 </style>

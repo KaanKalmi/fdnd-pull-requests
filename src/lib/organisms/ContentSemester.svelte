@@ -14,6 +14,7 @@
 <style>
   article {
     margin-block: 2rem;
+    margin-inline: 0.5rem;
     padding: 1rem;
     background-color: var(--white);
     border: 2px solid var(--turquoise);
@@ -23,9 +24,5 @@
 
     h3 { margin: 0 0 0.5rem; }
   }
-  @media (750px <=width){
-    article {
-      max-width: 43%;
-    }
-  }
+  @media (750px <=width){ article { max-width: 43%; } }
 </style>
