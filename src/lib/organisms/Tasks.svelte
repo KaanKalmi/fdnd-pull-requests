@@ -1,7 +1,6 @@
 <script>
   import Heading from "$lib/molecules/Heading.svelte";
   let { tasks } = $props();
-  console.log(tasks); // Undefined?
 </script>
 
 {#if tasks && tasks.length > 0}
