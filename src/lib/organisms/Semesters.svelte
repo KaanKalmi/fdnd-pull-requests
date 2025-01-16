@@ -106,6 +106,5 @@
   }
 
   @media (prefers-reduced-motion: reduce) { .pacman::before, .pacman::after { animation: none; } }
-
   @media (min-width: 1250px) { h2 { padding-left: 0rem; } }
 </style>

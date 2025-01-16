@@ -40,7 +40,7 @@
     padding: 0.5rem;
     margin-top: -1.5em;
     margin-left: -.25em;
-    max-width: 320px;
+    width: 320px;
   }
 
   :global(.semester h2 ) {
@@ -67,7 +67,7 @@
 
     ol {
       list-style: none;
-      max-width: 360px;
+      width: 360px;
     }
   }
 </style>
